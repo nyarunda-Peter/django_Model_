@@ -10,4 +10,6 @@ urlpatterns = [
     path("update/<slug:slug>", views.PostUpdateView.as_view(), name="post_update"),
     path("read/<slug:slug>", views.PostDetailView.as_view(), name="post_detail"),
 
+
+
 ]
